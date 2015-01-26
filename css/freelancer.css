@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+.navbar-fixed-top .navbar-brand .logo {
+    padding: 0px;
+    width: 120px;      
+}
 p {
     font-size: 20px;
 }
@@ -130,12 +134,19 @@ header .intro-text .skills {
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
+ 
+   .navbar-fixed-top .navbar-brand .logo {
+        padding: 0px;
+        width: 200px;
+       
+    }
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        padding: 0px;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -448,3 +459,4 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+.logo
