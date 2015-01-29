@@ -459,4 +459,6 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-.logo
+.texto{
+    text-align: justify;
+}
