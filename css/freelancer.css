@@ -462,3 +462,10 @@ footer .footer-below {
 .texto{
     text-align: justify;
 }
+.contato{
+    text-align: left;
+    font-size: 12px;
+}
+.host{
+    color: red;
+}
